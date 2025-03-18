@@ -5,8 +5,8 @@ Vx = 5;
 l.f = 1.5;
 l.r = 1.5;
 Izz=300;
-A=[(-cy.f-cy.r)/(m*Vx),(-lf*cy.f+lr*cy.r)/(m*Vx)-Vx;(-lf*cy.f+lr*cy.r)/(Izz*Vx),(-lf^2*cy.f-lr^2*cy.r)/(Izz*Vx)];
-B=[cy.f/(m*Vx);(lf*cy.f)/Izz];
+A=[(-cy.f-cy.r)/(m*Vx),(-l.f*cy.f+l.r*cy.r)/(m*Vx)-Vx;(-l.f*cy.f+l.r*cy.r)/(Izz*Vx),(-l.f^2*cy.f-l.r^2*cy.r)/(Izz*Vx)];
+B=[cy.f/(m*Vx);(l.f*cy.f)/Izz];
 
 
 assignin('base','A',A);
