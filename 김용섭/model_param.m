@@ -17,7 +17,7 @@ Rw = 0.265;
 A = [-(Cyf + Cyr)/(m*Vx0) (-lf*Cyf + lr*Cyr)/(m*Vx0) - Vx0;
     (-lf*Cyf + lr*Cyr)/(Izz*Vx0) -(lf^2*Cyf + lr^2*Cyr)/(Izz*Vx0)];
 
-B = [Cyf/(m*V   x0) 0; 
+B = [Cyf/(m*Vx0) 0; 
     lf*Cyf/Izz (2*tr*Gr)/(Rw*Izz)];
 
 C = eye(2);
