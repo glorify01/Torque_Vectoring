@@ -1,3 +1,6 @@
+clear
+clc
+
 %% Dissertacao 기반 model param
 % vehicle param
 Vx0 = 50;
